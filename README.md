@@ -24,8 +24,8 @@ A manual audit of a single Google Ads account takes 4-6 hours of senior PPC time
 > **Last updated:** 2026-05-18 · **Version:** v1.7.1 · [CHANGELOG](CHANGELOG.md) · [Blog: full ad audit breakdown](https://agricidaniel.com/blog/claude-code-ad-agency)
 
 > **Two versions of this skill.**
-> - 🌐 **Public open-source** → [`AgriciDaniel/claude-ads`](https://github.com/AgriciDaniel/claude-ads): MIT, public releases, no membership. Use this if you want stable + downloadable.
-> - 🔒 **Community private mirror** (this repo) → [`AI-Marketing-Hub/claude-ads`](https://github.com/AI-Marketing-Hub/claude-ads): early access to upcoming features and direct collaboration with the [AI Marketing Hub Pro](https://www.skool.com/ai-marketing-hub-pro) community. Requires membership.
+> - 🌐 **Public open-source** → [`AgriciDaniel/claude-ads`](https://github.com/AgriciDaniel/claude-ads): MIT, public releases, no membership. Best if you want stable + downloadable.
+> - 🔒 **Community private mirror** → [`AI-Marketing-Hub/claude-ads`](https://github.com/AI-Marketing-Hub/claude-ads): early access to upcoming features and direct collaboration with the [AI Marketing Hub Pro](https://www.skool.com/ai-marketing-hub-pro) community. Requires membership.
 
 ## Who this is for
 
@@ -116,10 +116,11 @@ Plus a PDF version (`/ads report`) with health score gauge, platform comparison 
 
 ## Installation: 3 ways to add Claude Ads
 
-> ℹ️ **Which version are you installing?**
+> ℹ️ **Two install paths — pick the one that matches your access.**
 >
-> - **Not an AI Marketing Hub Pro member?** Install from the public repo → [`AgriciDaniel/claude-ads`](https://github.com/AgriciDaniel/claude-ads). All commands below work there: swap `AI-Marketing-Hub/claude-ads` for `AgriciDaniel/claude-ads` and the plugin slug `claude-ads@ai-marketing-hub-claude-ads` for `claude-ads@agricidaniel-claude-ads`.
-> - **Pro member?** The commands below install the community version with early access. Requires `gh auth login` (or PAT) with access to the `AI-Marketing-Hub` org. If `/plugin marketplace add` 404s, DM in the [Skool community](https://www.skool.com/ai-marketing-hub-pro) to get added.
+> The commands below default to the **community private mirror** at `AI-Marketing-Hub/claude-ads` (early access for Pro members). To use the **public release** at `AgriciDaniel/claude-ads` (MIT, no membership), swap `AI-Marketing-Hub/claude-ads` for `AgriciDaniel/claude-ads` and the plugin slug `claude-ads@ai-marketing-hub-claude-ads` for `claude-ads@agricidaniel-claude-ads` in every command.
+>
+> Pro members: requires `gh auth login` (or PAT) with access to the `AI-Marketing-Hub` org. If `/plugin marketplace add` 404s, DM in the [Skool community](https://www.skool.com/ai-marketing-hub-pro) to get added.
 
 ### 1. Plugin install (Claude Code, recommended)
 
@@ -551,7 +552,7 @@ Three things: (1) local-first, no data uploaded anywhere; (2) MIT-licensed and f
 <details>
 <summary><b>Can I use this for client work as an agency?</b></summary>
 
-Yes. MIT license. White-label the PDF reports via the `/ads report` template. The `/ads plan agency` template is built for multi-client management. The community private mirror (this repo) ships ahead of public releases for Pro members.
+Yes. MIT license. White-label the PDF reports via the `/ads report` template. The `/ads plan agency` template is built for multi-client management. The community private mirror at AI-Marketing-Hub ships ahead of public releases for Pro members.
 </details>
 
 ## Requirements
@@ -592,8 +593,9 @@ The 12-month delivery cadence from v1.5 stable through Wave 2 (v1.7.x, current) 
 
 ## Related projects
 
-- 🌐 **[claude-ads (public)](https://github.com/AgriciDaniel/claude-ads)**: the open-source version of this skill (MIT, current public release `v1.7.1`). Use this if you're not in the Pro community.
 - [Claude SEO](https://github.com/AgriciDaniel/claude-seo): comprehensive SEO analysis skill for Claude Code
+
+> Looking for the other version of this skill? See the [Two versions of this skill](#claude-ads-paid-advertising-audit-skill-for-claude-code) callout at the top of this README.
 
 ## Maintainer
 
